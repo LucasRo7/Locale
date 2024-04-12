@@ -107,11 +107,14 @@
         "Interaction.ImportFile": "Importar Arquivo",
         "Interaction.ExportFile": "Exportar Arquivo",
         "Interaction.CopyLink": "Copiar Link",
+        "Interaction.CopyImage": "Copiar Imagem",
 
         "Inventory.OpenWorld": "Abrir Mundo",
         "Inventory.Equip": "Equipar",
         "Inventory.Delete": "Deletar",
+        "Inventory.CreateDirectory": "Criar Pasta",
         "Inventory.SaveHeld": "Salvar item em mãos",
+        "Inventory.GetURL": "Copiar URL",
         "Inventory.Inventories": "Inventários",
         "Inventory.Share": "Compartilhar",
         "Inventory.Unshare": "Descompartilhar",
@@ -128,6 +131,7 @@
         "Inventory.Favorite.WorldLoadingIndicator": "Definir Barra de Carregamento",
         "Inventory.Favorite.ColorDialog": "Definir Seletor de Cores",
         "Inventory.Favorite.Hyperlink": "Definir Display de URL",
+        "Inventory.Favorite.Document": "Definir Display de Documentos",
         "Inventory.SpawnFacet": "Criar Faceta",
 
         "Dash.Screens.Home": "Início",
@@ -396,36 +400,109 @@
         "Indicator.LiveHiddenMessage": "(informação escondida quando ao vivo)",
 
         "Login.InvalidCredentials": "Credenciais inválidas",
+        "Login.InvalidCredentials.Description": "Verifique suas credenciais e tente novamente ou pressione \"Esqueceu a senha?\"",
+
         "Login.InvalidLogin": "Credenciais inválidas",
+        "Login.InvalidLogin.Description": "Verifique suas credenciais e tente novamente ou pressione \"Esqueceu a senha?\"",
 
         "Login.MalformedUID": "Informação do dispositivo inválida",
+        "Login.MalformedUID.Description": "Tente reinstalar, ou entre em contato com o suporte em {supportUrl}.",
+
         "Login.MissingUID": "Informação do dispositivo não encontrada",
+        "Login.MissingUID.Description": "Tente reinstalar, ou entre em contato com o suporte em {supportUrl}.",
+
+        "Login.MissingSecretMachineId": "ID de máquina secreto está faltando",
+        "Login.MissingSecretMachineId.Description": "Tente reinstalar, ou entre em contato com o suporte em {supportUrl}.",
+
+        "Login.MalformedSecretMachineId": "ID de máquina secreto inválido",
+        "Login.MalformedSecretMachineId.Description": "Tente reinstalar, ou entre em contato com o suporte em {supportUrl}.",
+
         "Register.MissingUID": "Informação do dispositivo inválida",
+        "Register.MissingUID.Description": "Tente reinstalar, ou entre em contato com o suporte em {supportUrl}.",
+
         "Register.MalformedUID": "Informação do dispositivo inválida",
+        "Register.MalformedUID.Description": "Tente reinstalar, ou entre em contato com o suporte em {supportUrl}.",
 
         "Login.MissingLogin": "Nenhuma credencial fornecida",
-        "Login.InvalidRecoveryCode": "Código de recuperação inválido",
-        "Login.UnsupportedAuthentication": "Método de autenticação não suportado",
-        "Login.EmailNotVerified": "Email não verificado",
-        "Login.AccountTempLocked": "Sua conta está trancada.",
-        "Login.AccountBanned": "Sua conta está banida.",
-        "Login.DuplicateAccount": "Conta duplicada",
+        "Login.MissingLogin.Description": "Você se esqueceu de digitar suas credenciais?",
 
-        "Register.MissingRequest": "Informações de registro",
+        "Login.InvalidRecoveryCode": "Código de recuperação inválido",
+        "Login.InvalidRecoveryCode.Description": "Verifique seu código de verificação e tente novamente.",
+
+        "Login.UnsupportedAuthentication": "Método de autenticação não suportado",
+        "Login.UnsupportedAuthentication.Description": "Não suportamos esse método de autenticação. Por favor, tente outro.",
+
+        "Login.EmailNotVerified": "Email não verificado",
+        "Login.EmailNotVerified.Description": "Seu email não foi verificado, procure em sua caixa de entrada por um email nosso, procure também em sua caixa de spam.",
+
+        "Login.AccountTempLocked": "Sua conta está trancada.",
+        "Login.AccountTempLocked.Description": "Por favor entre em contato com a Moderação em: {moderationUrl}.",
+
+        "Login.AccountBanned": "Sua conta está banida.",
+        "Login.AccountBanned.Description": "Por favor entre em contato com a Moderação em: {moderationUrl}.",
+
+        "Login.DuplicateAccount": "Conta duplicada",
+        "Login.DuplicateAccount.Description": "Por favor entre em contato com o suporte em {supportUrl}.",
+
+        "Login.UnknownError": "Erro Desconhecido",
+        "Login.UnknownError.Description": "Um erro desconhecido ocorreu durante o login. Por favor entre em contato com o suporte em {supportUrl}.",
+
+        "Register.MissingRequest": "Falta informações para registro",
+        "Register.MissingRequest.Description": "Não encontramos nenhuma informação para registrar. We couldn't find any registration details. Certifique-se de incluí-las ao se registrar.",
+
         "Register.InvalidEmail": "Endereço de email inválido",
+        "Register.InvalidEmail.Description": "Esse endereço de email é inválido.",
+
         "Register.MissingUsername": "Falta o nome de usuário",
+        "Register.MissingUsername.Description": "Você especificou seu nome de usuário?",
+
         "Register.MissingEmail": "Falta o endereço de email",
+        "Register.MissingUsername.Description": "Você especificou seu email?",
+
         "Register.UsernameTooLong": "Nome de usuário muito longo",
+        "Register.UsernameTooLong.Description": "Permitimos nomes de usuários de até 32 caracteres.",
+
         "Register.UsernameContainsAmpersand": "Nome de usuário não pode conter @",
+        "Register.UsernameContainsAmpersand.Description": "Seu nome de usuário não pode conter @.",
+
         "Register.UsernameStartsWithU": "Nome de usuário não pode começar com U-",
+        "Register.UsernameStartsWithU.Description": "Nomes de usuário não podem começar com U-.",
+
         "Register.InvalidUsername": "Nome de usuário inválido",
+        "Register.InvalidUsername.Description": "Seu nome de usuário é inválido.",
+
         "Register.InvalidDateOfBirth": "Data de nascimento inválida",
+        "Register.InvalidDateOfBirth.Description": "Sua data de nascimento é inválida.",
+
         "Register.UsernameContainsBlockedTerms": "Nome de usuário contém palavras bloqueadas",
+        "Register.UsernameContainsBlockedTerms.Description": "Seu nome de usuário contém palavras bloqueadas. Se você acha que isso é um erro, entre em contato com {supportUrl}.",
+
         "Register.MissingPassword": "Falta a senha",
+        "Register.MissingPassword.Description": "Você não especificou uma senha.",
+
         "Register.InvalidPassword": "Senha inválida",
+        "Register.InvalidPassword.Description": "Sua senha é inválida. Ela deve conter pelo menos 8 caracteres, incluindo 1 dígito, 1 letra maiúscula e 1 letra minuscula.",
+
         "Register.EmailAlreadyRegistered": "Endereço de email já registrado",
+        "Register.EmailAlreadyRegistered.Description": "Uma conta com esse email já existe, se você esqueceu sua senha clique em \"Esqueceu a senha?\". Ou entre em contato com o suporte em {supportUrl}.",
+
         "Register.UsernameAlreadyRegistered": "Nome de usuário já registrado",
+        "Register.UsernameAlreadyRegistered.Description": "Uma conta com esse nome de usuário já existe, se você esqueceu sua senha clique em \"Esqueceu a senha?\". Ou entre em contato com o suporte em {supportUrl}.",
+
         "Register.ErrorCheckingUserId": "Erro ao verificar ID de usuário",
+        "Register.ErrorCheckingUserId.Description": "Por favor entre em contato com o suporte em {supportUrl}.",
+
+        "Recovery.MissingEmail": "Falta o endereço de email",
+        "Recovery.MissingEmail.Description": "Você especificou seu email?",
+
+        "Recovery.IncorrectEmail": "Email incorreto",
+        "Recovery.IncorrectEmail.Description": "Você digitou um email incorreto para recuperação de senha. Por favor verifique as informações e tente novamente.",
+
+        "Recovery.NoPasswordSetup": "Senha não configurada", 
+        "Recovery.NoPasswordSetup.Description": "Por favor entre em contato com o suporte em {supportUrl}.",
+
+        "Register.UnknownError": "Erro Desconhecido",
+        "Register.UnknownError.Description": "Um erro desconhecido ocorreu durante o registro. Por favor entre em contato com o suporte em {supportUrl}.",
 
         "Account.Login": "Login",
         "Account.Logout": "Sair",
@@ -638,6 +715,12 @@
         "Tooltips.Dev.Rotation" : "Rotação",
         "Tooltips.Dev.Scale" : "Escala",
 
+        "Tooltips.Dev.Selection.Single": "Unico",
+        "Tooltips.Dev.Selection.Multi": "Múltiplo",
+
+        "Tooltips.Dev.Interaction.Tip": "Ponta",
+        "Tooltips.Dev.Interaction.Projection": "Projeção",
+
         "Tooltip.Color.Picker": "Seletor de Cores",
 
         "Tooltip.GrabbableSetter.Scalable": "Definir como Escalável",
@@ -654,6 +737,10 @@
         "Tooltip.Light.Point": "Ponto",
         "Tooltip.Light.Spot": "Holofote",
         "Tooltip.Light.Sun": "Sol",
+
+        "Tooltip.Light.Shadows.None": "Sem sombras",
+        "Tooltip.Light.Shadows.Hard": "Sombras nítidas",
+        "Tooltip.Light.Shadows.Soft": "Sombras suaves",
 
         "Tooltip.MeshVisibility.KeepShadow": "Manter Sombras",
         "Tooltip.MeshVisibility.ShadowOff": "Desativar Sombras",
@@ -700,6 +787,26 @@
         "Tooltip.ProtoFlux.PackInto" : "Compactar em <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.Unpack" : "Descompactar <size=50%>{name}</size>",
         "Tooltip.ProtoFlux.ExplicitCast" : "Cast Explicito\n<size=50%>(<color=red>AVISO:</color> Possível perca de dados)</size>",
+
+        "Tooltip.Meter.Mode.Ray": "Modo: Raio",
+        "Tooltip.Meter.Mode.Perpendicular": "Modo: Perpendicular",
+        "Tooltip.Meter.Mode.Drag": "Modo: Arrasto",
+
+        "Tooltip.Meter.Points.Two": "Dois pontos",
+        "Tooltip.Meter.Points.Multiple": "Múltiplos pontos",
+
+        "Tooltip.Meter.ObjectSpace": "Medir no espaço do objeto",
+        "Tooltip.Meter.WorldSpace": "Medir no espaço do mundo",
+
+        "Tooltip.Glue.Mode.BakeMeshes": "Modo: Bake de malhas",
+        "Tooltip.Glue.Mode.BakeSkinnedMeshes": "Modo: Bake de malhas skinned",
+        "Tooltip.Glue.Mode.ParentObjects": "Modo: Mudar parentesco dos objetos",
+
+        "Tooltip.RigTransfer.ClearSource": "Limpar fonte",
+
+        "Tooltip.ComponentClone.SingleInstanceOn": "Instância Única: On",
+        "Tooltip.ComponentClone.SingleInstanceOff": "Instância Única: Off",
+        "Tooltip.ComponentClone.ClearTemplate": "Limpar modelo",
 
         "ProtoFlux.UI.Call" : "Chamada",
         "ProtoFlux.UI.AsyncCall" : "Chamada <size=50%>Assíncrona</size> ",
@@ -894,6 +1001,10 @@
         "Importer.Video.Depth.Prompt": "Preset de Profundidade",
         "Importer.Video.Depth.Default": "Padrão",
         
+        "Importer.Slices.Title": "Corte de imagens como uma textura volumétrica",
+        "Importer.Slices.TitleGrayscale": "Corte de imagens como uma textura volumétrica (escala de cinza)",
+        "Importer.Slices.Description": "Processa todas as imagens da pasta em uma textura volumétrica",
+
         "Exporter.Title": "Exportar",
         "Exporter.FileName": "Nome do arquivo:",
         "Exporter.ExportAs": "Exportar como:",
@@ -1210,6 +1321,20 @@
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Espaço Local do Usuário",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Mudar pai de {name} para espaço do usuário local",
 
+        "Inspector.Member.ResetToDefault": "Resetar para o padrão",
+
+        "Inspector.Member.BreakLinkDrive": "Quebrar Link/Drive",
+        "Inspector.Member.OpenLinkDrive": "Abrir fonte do Link/Drive",
+
+        "Inspector.Member.SetAllToAvg": "Usar valor da média",
+        "Inspector.Member.SetAllToX": "Usar valor de X",
+        "Inspector.Member.SetAllToY": "Usar valor de Y",
+        "Inspector.Member.SetAllToZ": "Usar valor de Z",
+        "Inspector.Member.SetAllToW": "Usar valor de W",
+
+        "Inspector.ProceduralAsset.UpdateCount": "Contagem de updates: {n}",
+        "Inspector.ProceduralAsset.Error": "Erro: {error}",
+
         "Inspector.Mesh.StatsHeader": "Estatísticas da Malha",
         "Inspector.Mesh.VertexCount": "Contagem de Vertex: {n}",
         "Inspector.Mesh.TriangleCount": "Contagem de Triângulos: {n}",
@@ -1283,7 +1408,7 @@
         "Inspector.ReflectionProbe.Bake": "Cozinhar (bake) Reflexos",
         "Inspector.ReflectionProbe.Baking": "Cozinhando (baking)...",
 
-        "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Separar partes da mesh não afetadas por blendhsapes",
+        "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Separar partes da mesh não afetadas por blendshapes",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Remover Blendshapes Vázias",
         "Inspector.SkinnedMesh.StripBlendshapesResult": "Pronto! Removido: {n,plural, one {# blendshape} other {# blendshapes}}",
         "Inspector.SkinnedMesh.StripEmptyBones": "Remover Ossos Vázios",
@@ -1296,6 +1421,8 @@
         "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "Computar limites explicitos da pose atual",
         "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "Extender explicitamente limites da pose atual",
         "Inspector.SkinnedMesh.BakeToStaticMesh": "Cozinhar (bake) para Mesh Estática",
+        "Inspector.SkinnedMesh.SortBlendshapes.Name": "Reordenar blendshapes (ordem alfabética)",
+        "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Reordenar blendshapes (pelo tamanho do nome e ordem alfabética)",
 
         "Inspector.SimpleAvatarProtection.RemoveAll": "Remover Todas as Instancias",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Remover Instancia Única",
@@ -1315,8 +1442,10 @@
         "Inspector.Texture.Size": "Tamanho: {width} x {height}",
         "Inspector.Texture.Format": "Formato: {format}, Memoria: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "VariantID: {variant}",
+        "Inspector.Texture3D.Size": "Tamanho: {width} x {height} x {depth}",
 
         "Inspector.Texture.BakeTexture": "Cozinhar (bake) Textura",
+        "Inspector.Texture.ReplaceFromClipboard" : "Substituir pela Área de Transferência",
 
         "Inspector.Texture.InvertRGB": "Inverter RGB",
         "Inspector.Texture.InvertR": "Inverter R",
@@ -1706,6 +1835,8 @@
         "Tutorial.Saving.Title": "Bem-vindo a sua Casa!",
         "Tutorial.Saving.Content": "Bem-vindo ao seu mundo <b><i><color=hero.yellow>Casa!</b></i></color> É aqui que você vai estar toda vez que fizer login.<br><br>Este mundo é todo seu, então qualquer mudanças que você fazer poderão ser salvas.<br><br>Se você salvar, tudo estará da maneira que você deixou quando você retornar!",
 
+        "Tutorial.Teleporter.Error": "Falha ao carregar mundo da nuvem!<br><size=66%>Saia do teleporte e volte para tentar novamente.</size>",
+
         "CloudHome.Info.OnlineUsers": "{online_users,plural, one {Usuário} other {Usuários}} Online: {online_users}<br>{joinable_users,plural, one {Usuário} other {Usuários}} Livre para Jogar Juntos: {joinable_users}",
         "CloudHome.Info.Moderation": "Moderação",
         "CloudHome.Info.Inventory": "Inventário",
@@ -1720,7 +1851,7 @@
         "CloudHome.Info.DashInfoVR": "Apenas para te manter atualizado, há algumas coisas que você deverá saber. Você tem uma <i><color=hero.purple>Dashboard</color></i> que você pode abrir pressionando B ou Y. Pense dele como o seu desktop ou painel de controle.<br><br>Se você estiver confuso(a), isto exibirá informações extra para te ajudar... Clique no botão abaixo para descartar a mensagem .",
         "CloudHome.Info.DashInfoVRNoButtons": "Apenas para te manter atualizado, há algumas coisas que você deverá saber. Você tem uma <i><color=hero.purple>Dashboard</color></i> que você pode abrir pressionando e segurand o botão menu até o circulo completar. Pense dele como o seu desktop ou painel de controle.<br><br>Se você estiver confuso(a), isto exibirá informações extra para te ajudar... Clique no botão abaixo para descartar a mensagem .",
 
-        "CloudHome.Info.GoToWiki": "Ir a Wiki!",
+        "CloudHome.Info.GoToWiki": "Ir para a Wiki!",
         "CloudHome.Info.GoToDiscord": "Ir ao Discord!",
 
         "CloudHome.Info.ModerationTab.Title": "Moderação!",
@@ -1896,6 +2027,14 @@
         "UI.TextDisplay.NormalText": "Normal",
         "UI.TextDisplay.MonospaceText": "Monoespaçado",
 
+        "UI.DocumentDisplay.PageNumber": "Página {page_number}",
+        "UI.DocumentDisplay.DocumentQuality": "Qualidade",
+        "UI.DocumentDisplay.QualityLow": "Baixa",
+        "UI.DocumentDisplay.QualityMedium": "Média",
+        "UI.DocumentDisplay.QualityHigh": "Alta",
+        "UI.DocumentDisplay.Pages": "Páginas",
+        "UI.DocumentDisplay.ResetZoom": "Resetar o Zoom",
+
         "UI.VideoPlayer.GlobalSettings": "Opções<br>Globais",
         "UI.VideoPlayer.LocalSettings": "Opções<br>Locais",
         "UI.VideoPlayer.SpatialAudio": "Áudio<br>Espacial",
@@ -1905,6 +2044,7 @@
         "UI.VideoPlayer.AudioZoneTheater": "Local para<br>o Ambiente",
         "UI.VideoPlayer.AudioZoneGlobal": "Audível<br>para o Mundo Todo",
         "UI.VideoPlayer.UsersLoaded": "{users_loaded}/{users_present} {users_present,plural, one {usuário} other {usuários}}<br>carregado",
+        "UI.VideoPlayer.AllUsersLoaded": "Todos usuários<br>carregados",
 
         "UI.ColorPicker.ColorPicker": "Seletor de Cores",
 
@@ -1925,6 +2065,9 @@
         "UI.ColorPicker.Gain": "Ganho",
 
         "UI.ProgressBar.ImportingItem": "Importando Item",
+
+        "UI.Camera.Automatic": "Automática",
+        "UI.Camera.Manual": "Manual",
 
         "Tools.Names.MultiTool": "Multi-Ferramenta",
 
@@ -1952,6 +2095,12 @@
         "Tools.Names.ControllerDiagnostic": "Ferramenta de Diagnostico dos Controles",
         "Tools.Names.Measure": "Ferramenta de Medição",
         "Tools.Names.Label": "Ferramenta de Etiqueas",
+
+        "Discord.RichPresence.InPrivateWorld": "Em um mundo privado",
+        "Discord.RichPresence.InPrivateLargeText": "Em privado ({version})",
+        "Discord.RichPresence.InPublicWorld": "Em um mundo público",
+        "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} mundos)",
+        "Discord.RichPresence.InPublicLargeText": "Em público ({version})",
 
         "Dummy": "Dummy"
     }
